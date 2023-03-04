@@ -12,6 +12,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return kind === "m" ? f : kind === "a" ? f.call(receiver) : f ? f.value : state.get(receiver);
 };
 var _Employee_instances, _Employee_id, _Employee_hiddenItem, _Employee_HIDE_ME_WITH_HASH, _Employee_moreSalt;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Bag = void 0;
 class Employee {
     // in typescript, you cannot have multiple constructors
     // thus you cannot have both a default constructor and a parametrized constructor
@@ -130,6 +132,7 @@ class Bag {
         this.contents = value;
     }
 }
+exports.Bag = Bag;
 let bag = new Bag();
 console.log(bag.bagContents);
 bag.bagContents = "new bag contents";

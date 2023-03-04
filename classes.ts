@@ -166,7 +166,7 @@ console.log(Cookie.text);
 
 // done in a weird way, but ok
 
-class Bag {
+export class Bag {
 
     private contents: string;
 
