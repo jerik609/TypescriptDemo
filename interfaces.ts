@@ -209,4 +209,3 @@ export interface LoginInterface {
 // exchanged data is important
 
 // my takeaway - just use it as in java, it's safe and consistent
-
